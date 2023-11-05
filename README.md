@@ -1,4 +1,5 @@
 # STATS201_Chloe
+![Uploading Chloe Alimurong headshot.jpg…]()
 
 ## Bio:
 # hey all! I'm Chloe, junior undergraduate from Duke University and Duke Kunshan University where I study Computation and #Design/Urban Design. I spent a year at Duke in NC and a semester in Barcelona where I studied Architecture. 
