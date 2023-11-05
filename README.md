@@ -1,5 +1,6 @@
 # STATS201_Chloe
-![Uploading Chloe Alimurong headshot.jpg…]()
+
+![Chloe Alimurong headshot](https://github.com/Rising-Stars-by-Sunshine/STATS201_Chloe/assets/148734001/76c2be1e-7ad1-40d3-b2ae-a595304b84be)
 
 ## Bio:
 # hey all! I'm Chloe, junior undergraduate from Duke University and Duke Kunshan University where I study Computation and #Design/Urban Design. I spent a year at Duke in NC and a semester in Barcelona where I studied Architecture. 
