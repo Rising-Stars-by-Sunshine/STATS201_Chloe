@@ -1,5 +1,10 @@
 # STATS201_Chloe
 
+### This GitHub Repository is a space where I will keep research records for my STATS201 work.
+## Table of Contents: 
+## 1. Bio
+## 2. Resume
+
 ![Chloe Alimurong headshot](https://github.com/Rising-Stars-by-Sunshine/STATS201_Chloe/assets/148734001/76c2be1e-7ad1-40d3-b2ae-a595304b84be)
 
 ## Bio:
