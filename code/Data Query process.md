@@ -1,6 +1,7 @@
 # Data Query Process
 ### The data query process involving the US Bureau of Transportation Statistics is a systematic and comprehensive approach to extracting valuable insights from the vast repository of transportation-related information. This process begins with defining specific research objectives and selecting the relevant datasets from the Bureau's extensive collection. Users employ various query tools and parameters to filter, aggregate, and manipulate the data, ensuring that it aligns with their analytical requirements. Once the desired dataset is retrieved, it undergoes rigorous examination, including statistical analysis and visualization, to uncover trends, patterns, and critical information. The ultimate goal is to transform raw data into actionable knowledge, facilitating evidence-based decision-making and policy development within the transportation sector. This process is characterized by precision, adaptability, and a commitment to harnessing the power of data to enhance transportation systems and services.
 
+```
 # open csv file
 data <- read.csv("your_dataset.csv")
 
@@ -40,3 +41,4 @@ print(confusion_matrix)
 library(pROC)
 roc_curve <- roc(data$Disability_Status, predicted_values)
 plot(roc_curve, main = "ROC Curve", col = "blue", lwd = 2)
+```
