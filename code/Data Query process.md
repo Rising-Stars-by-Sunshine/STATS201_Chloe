@@ -42,3 +42,5 @@ library(pROC)
 roc_curve <- roc(data$Disability_Status, predicted_values)
 plot(roc_curve, main = "ROC Curve", col = "blue", lwd = 2)
 ```
+## Whimsical flowchart
+[https://whimsical.com/problem-set-2-part-3-data-query-process-3skqvmMpRsPxYMxDkm7Smo]
