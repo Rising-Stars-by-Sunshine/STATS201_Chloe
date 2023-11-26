@@ -4,11 +4,11 @@
 ### Significance: Evaluating the different factors that impact decision making is important when it comes to city planning because the goal of city planning and public transportation is to create better access to resources for all citizens (Field, 2007). When we consider populations that are underrepresented, such as those with disabilities, we can better cater to the needs of all citizens by providing specific changes in infrastructure and policy.
 ## Operational Measures:
 ### Variables: the disability status of individuals in the United States will be my X variable and their chosen forms of transportation (public transportation, car, or working from home) will be my Y variables
-###Data Type: My data is cross-sectional but I hopefully will expand to time-series by comparing different years (pre-post COVID) or just comparing different regions.
+### Data Type: My data is cross-sectional but I hopefully will expand to time-series by comparing different years (pre-post COVID) or just comparing different regions.
 ## Hypothesis Development:
 ### Prediction Hypothesis: I believe that there is a significant impact on the modes of transportation according to one’s disability status.
 ### Justification: Those with disabilities may prefer taking their own personal means of transportation like cars, or even just working from home because public transportation in America likely lacks the necessary infrastructure to support various disabilities (different physical and/or mental impairments vary.)
-Machine Learning Algorithm Selection: A Poisson Regression model and a CoxPH Regression model for my time series.
+### Machine Learning Algorithm Selection: A Poisson Regression model and a CoxPH Regression model for my time series.
 
 ## 1.2 The Machine Learning Workflow
 ## Model Development:
@@ -24,4 +24,4 @@ Machine Learning Algorithm Selection: A Poisson Regression model and a CoxPH Reg
 ### Field, Marilyn J., Alan M. Jette, and Institute of Medicine (US) Committee on Disability in America. "Transportation patterns and problems of people with disabilities." In The future of disability in America. National Academies Press (US), 2007.“R: Extract Mean Squared Error (MSE) from Fitted Regression Model.” n.d. Searc
 
 ## Whimsical map:
-([https://whimsical.com/week-4-prediction-problem-7Sg7aUc44s1YKXZ4MhBDC3])
+[https://whimsical.com/week-4-prediction-problem-7Sg7aUc44s1YKXZ4MhBDC3]
