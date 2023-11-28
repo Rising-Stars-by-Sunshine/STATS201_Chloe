@@ -2,6 +2,11 @@ A more comprehensive look at the variables here: https://data.bts.gov/Research-a
 
 # County Transport dataset variable data dictionary
 
+Certainly! Below is the information reformatted in README code format:
+
+```markdown
+# Dataset Variables and Descriptions
+
 ## County FIPS Code
 - **Description:** A unique five-digit FIPS code assigned to each county.
 - **Data Type:** Plain Text
@@ -76,12 +81,4 @@ A more comprehensive look at the variables here: https://data.bts.gov/Research-a
 
 ## Route Miles of Freight Railroad
 - **Description:** Railroad data from the North American Rail Lines NTAD dataset as of April 1, 2020. Includes route miles of freight railroad, filtered to relevant fields for 'Main sub network' and 'Major Industrial Lead'.
-- **Data Type:** Number
-
-## Percentage of Medium to Fair Condition Bridges
-- **Description:** Data representing the percentage of bridges in medium to fair condition.
-- **Data Type:** Number
-
-## Route Miles of Passenger Railroad and Rail Transit
-- **Description:** Railroad data from the North American Rail Lines NTAD dataset as of April 1, 2020. Encompasses route miles of passenger railroad and rail transit, filtered to relevant fields for 'Main sub network', 'Major Industrial Lead', and specific passenger railroad companies.
 - **Data Type:** Number
