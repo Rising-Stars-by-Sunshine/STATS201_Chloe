@@ -1,3 +1,87 @@
+A more comprehensive look at the variables here: https://data.bts.gov/Research-and-Statistics/Tableau-County-Transportation-Profiles-Dashboard-C/qdmf-cxm3
 
-All of the variables and their definitions, description, frequency,
-range, unit, type, can be found here: https://data.bts.gov/Research-and-Statistics/Tableau-County-Transportation-Profiles-Dashboard-C/qdmf-cxm3
+# County Transport dataset variable data dictionary
+
+## County FIPS Code
+- **Description:** A unique five-digit FIPS code assigned to each county.
+- **Data Type:** Plain Text
+
+## County Name
+- **Description:** The name of the county under consideration.
+- **Data Type:** Plain Text
+
+## State FIPS Code
+- **Description:** A two-digit FIPS code representing the state to which the county belongs.
+- **Data Type:** Number
+
+## State Name
+- **Description:** The name of the state in which the county is situated.
+- **Data Type:** Plain Text
+
+## Primary and Commercial Airports
+- **Description:** Compilation of airport data from the National Transportation Atlas Database (NTAD) sourced from the Federal Aviation Administration and the T-100 Domestic Market & Segment (All Carriers) database. Categorization includes Primary and Commercial Airports, and Non-Commercial - Civil Public Use Airports and Seaplane bases. Non-Commercial - Other Aerodromes encompass remaining public and private facilities.
+- **Data Type:** Number
+
+## Non-Commercial - Civil Public Use Airports and Seaplane Base
+- **Description:** Compilation of airport data from NTAD, further delineating Non-Commercial - Civil Public Use Airports and Seaplane bases.
+- **Data Type:** Number
+
+## Non-Commercial - Other Aerodromes
+- **Description:** Compilation of airport data from NTAD, classifying Non-Commercial - Other Aerodromes, representing remaining public and private facilities.
+- **Data Type:** Number
+
+## Number of Bridges
+- **Description:** Bridges data sourced from NTAD using information from the Federal Highway Administration National Bridge Inventory (NBI). Includes bridges on public roads as of December 31, 2018, encompassing various road types and publicly-accessible bridges on Federal and Tribal lands.
+- **Data Type:** Number
+
+## Percentage of Poor Condition Bridges
+- **Description:** Bridges data sourced from NTAD via the Federal Highway Administration NBI, presenting the percentage of bridges in poor condition as of December 31, 2018.
+- **Data Type:** Number
+
+## Number of Business Establishments
+- **Description:** Demographic data sourced from the 2012-2016 Census Transportation Planning Products (CTPP) based on the 2012-2016 5-year American Community Survey. Business establishment data are derived from the U.S. Census Bureau’s County Business Patterns.
+- **Data Type:** Number
+
+## Percentage of Resident Workers who Commute by Transit
+- **Description:** Demographic data from CTPP based on the 2012-2016 5-year American Community Survey, showcasing the percentage of resident workers commuting by transit.
+- **Data Type:** Number
+
+## Number of Resident Workers who Work at Home
+- **Description:** Demographic data from CTPP based on the 2012-2016 5-year American Community Survey, presenting the number of resident workers who work at home.
+- **Data Type:** Number
+
+## Number of Workers from Other Counties who Commute to Work in the County
+- **Description:** Demographic data from CTPP based on the 2012-2016 5-year American Community Survey, indicating the number of workers commuting from other counties to work in the county.
+- **Data Type:** Number
+
+## Number of Resident Workers who Commute to Work in Other Counties
+- **Description:** Demographic data from CTPP based on the 2012-2016 5-year American Community Survey, illustrating the number of resident workers commuting to work in other counties.
+- **Data Type:** Number
+
+## Number of Resident Workers who Commute Within County
+- **Description:** Demographic data from CTPP based on the 2012-2016 5-year American Community Survey, indicating the number of resident workers who commute within the county.
+- **Data Type:** Number
+
+## Number of Resident Workers
+- **Description:** Demographic data from CTPP based on the 2012-2016 5-year American Community Survey, providing the total number of resident workers.
+- **Data Type:** Number
+
+## Number of Residents
+- **Description:** Demographic data from CTPP based on the 2012-2016 5-year American Community Survey, presenting the total number of residents.
+- **Data Type:** Number
+
+## Total Docks
+- **Description:** Maritime data sourced from the Master Docks file from the U.S. Army Corps of Engineers (USACE) and the U.S. Maritime Administration’s Waterborne Commerce Data 2009-2018. Includes docks categorized for commercial and recreational use.
+- **Data Type:** Number
+
+## Route Miles of Freight Railroad
+- **Description:** Railroad data from the North American Rail Lines NTAD dataset as of April 1, 2020. Includes route miles of freight railroad, filtered to relevant fields for 'Main sub network' and 'Major Industrial Lead'.
+- **Data Type:** Number
+
+## Percentage of Medium to Fair Condition Bridges
+- **Description:** Data representing the percentage of bridges in medium to fair condition.
+- **Data Type:** Number
+
+## Route Miles of Passenger Railroad and Rail Transit
+- **Description:** Railroad data from the North American Rail Lines NTAD dataset as of April 1, 2020. Encompasses route miles of passenger railroad and rail transit, filtered to relevant fields for 'Main sub network', 'Major Industrial Lead', and specific passenger railroad companies.
+- **Data Type:** Number
