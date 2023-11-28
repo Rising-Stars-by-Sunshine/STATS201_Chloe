@@ -1,4 +1,9 @@
 ## Queried Data
+
+### The Process
+The provided R code outlines a data query process using the `censusapi` package to extract demographic information from the U.S. Census Bureau's American Community Survey (ACS). First, the code installs and loads the `censusapi` package. An API key is then specified and inserted to authorize access to Census data. The query parameters, including the API endpoint (ACS in this case) and the desired variable (total population represented by "B01003_001E"), are defined. The geographic scope is set to a census tract within a specific state (New York, represented by the state code "36") and county (Kings County, represented by the county code "081"). The actual API call is made using the `getCensus` function, extracting the specified variables for the defined geography and vintage year (2019). The result, containing population data for the specified census tract, is stored in the variable `census_data`, which is then printed to display the retrieved information. This process demonstrates how to leverage the `censusapi` package to efficiently fetch demographic data from the U.S. Census Bureau's API for further analysis or visualization.
+
+### The code
 ```{r}
 # Install and load the censusapi package
 install.packages("censusapi")
