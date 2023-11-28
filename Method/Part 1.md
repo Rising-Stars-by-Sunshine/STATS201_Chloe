@@ -1,27 +1,58 @@
-## 1.1 The Prediction Problem
-## Research Question Formulation:
-### Objective: The specific research question I want to address with my research is: What are the social and environmental factors that impact people with disabilities choosing to take public transportation? Based on these factors, how can we improve American public transportation to be more accessible to those with disabilities?
-### Significance: Evaluating the different factors that impact decision making is important when it comes to city planning because the goal of city planning and public transportation is to create better access to resources for all citizens (Field, 2007). When we consider populations that are underrepresented, such as those with disabilities, we can better cater to the needs of all citizens by providing specific changes in infrastructure and policy.
-## Operational Measures:
-### Variables: the disability status of individuals in the United States will be my X variable and their chosen forms of transportation (public transportation, car, or working from home) will be my Y variables
-### Data Type: My data is cross-sectional but I hopefully will expand to time-series by comparing different years (pre-post COVID) or just comparing different regions.
-## Hypothesis Development:
-### Prediction Hypothesis: I believe that there is a significant impact on the modes of transportation according to one’s disability status.
-### Justification: Those with disabilities may prefer taking their own personal means of transportation like cars, or even just working from home because public transportation in America likely lacks the necessary infrastructure to support various disabilities (different physical and/or mental impairments vary.)
-### Machine Learning Algorithm Selection: A Poisson Regression model and a CoxPH Regression model for my time series.
+# 1.1 The Prediction Problem
+## Research Question Formulation
+
+## Objective
+The focal research inquiry guiding this study is delineated as follows: What are the intricate interplays of social and environmental factors influencing the decision-making process of individuals with disabilities in selecting public transportation? Furthermore, predicated on these discerned factors, how can the enhancement of the accessibility of American public transportation for individuals with disabilities be conceptualized and operationalized?
+
+## Significance
+An imperative facet in urban planning lies in the nuanced evaluation of determinants impacting decision-making, particularly in the realm of city planning and public transportation. As posited by Field (2007), the overarching objective is to meticulously craft urban environments that afford optimal accessibility to resources for all citizens. By scrutinizing demographics characterized by underrepresentation, notably individuals with disabilities, an enhanced understanding can be cultivated, thereby facilitating targeted modifications to infrastructure and policy, ensuring inclusivity in civic amenities.
+
+## Operational Measures
+
+### Variables
+The independent variable (X) encapsulates the disability status of individuals in the United States, while the dependent variables (Y) encompass the chosen modes of transportation, including public transportation, private vehicular conveyance, or remote telecommuting.
+
+### Data Type
+The research design adopts a cross-sectional methodology, with a prospective expansion towards a time-series framework. This envisaged temporal extension aims to compare disparate temporal points, specifically pre- and post-COVID periods or variations across distinct geographical regions.
+
+## Hypothesis Development
+
+### Prediction Hypothesis
+It is hypothesized that there exists a substantiated correlation between the modes of transportation chosen and an individual's disability status.
+
+### Justification
+Individuals with disabilities are postulated to exhibit a proclivity toward personalized modes of transportation, such as private vehicular conveyance or remote work arrangements. This inclination arises from the conjecture that the existing infrastructure of American public transportation inadequately accommodates the diverse spectrum of physical and/or mental impairments, thereby steering preferences towards more individually tailored transportation alternatives.
+
+### Machine Learning Algorithm Selection
+The envisaged analytical approach involves the deployment of a Poisson Regression model and a CoxPH Regression model, specifically tailored for the temporal analysis inherent in the time-series dimension. These methodologies are anticipated to yield insights into the dynamic associations between disability status and chosen transportation modes over varying temporal intervals.
+
 
 ## 1.2 The Machine Learning Workflow
-## Model Development:
-### Data Processing: I will first take my data from the census api data available through the tidycensus R package. In order to effectively process my data, I have to ensure that I have enough samples so I will most likely run a couple of random sample data. Then use graphs and tables such as correlation plots to represent the variables effectively.
-## Results Presentation:
-### Training and Testing: Through graphs and regression model tables. For the train-test split, I will train it on one year, possibly an earlier year where the relationship between the variables may be stronger, then testing it on more recent years. I can also test on different census packages.
-### Data Visualization: I will display my results on different types of graphs and with different information so I can better show the relationship between the variables, such as a graph with the fitted and predicted values.
-## Model Evaluation:
-### Evaluation Criteria: When assessing the performance of a regression model in R, I will consider several key metrics to evaluate its accuracy and effectiveness. One fundamental metric is the Mean Squared Error (MSE), which quantifies the average squared difference between the predicted and actual values (“R: Extract Mean Squared Error (MSE) from Fitted Regression Model.”). Lower MSE values indicate better model performance. Additionally, the R-squared (R²) statistic provides insight into the proportion of variance in the dependent variable explained by the model. A higher R² suggests a better fit. Other important metrics include Mean Absolute Error (MAE), which measures the average absolute difference between predicted and actual values, and diagnostic plots, such as residual plots, to visually assess the model's ability to capture patterns in the data. These metrics collectively offer a comprehensive evaluation of the regression model's predictive accuracy and its ability to generalize to new data in the context of R programming.
-### Iterative Improvement: I will try two ways of approaching this. First, by attempting a time-series regression instead and comparing the years instead of a cross-sectional analysis. Then, by searching for new variables that might reveal a better relationship.
+
+## # Model Development
+
+## Data Processing
+I will initiate the data acquisition process by extracting information from the census API through the tidycensus R package. To ensure statistical robustness, a preliminary step involves conducting random sampling, thereby enhancing the dataset's representativeness. Subsequently, the integration of graphical and tabular representation methods, such as correlation plots, will be employed to effectively elucidate the interplay between variables.
+
+# Results Presentation
+
+## Training and Testing
+The dichotomy between training and testing will be manifested through graphical representations and regression model tables. The training phase will be executed on an earlier temporal epoch, where the inherent relationships between variables may exhibit heightened salience. The subsequent testing phase will be extended to more recent years, providing a nuanced evaluation of the model's adaptability. Furthermore, diversification in testing will be achieved through experimentation with different census packages.
+
+## Data Visualization
+Resultant insights will be communicated through a diverse array of graphical depictions, each tailored to underscore distinctive facets of the relationship between variables. This may include graphs featuring fitted and predicted values, facilitating a comprehensive understanding of the model's predictive capabilities.
+
+# Model Evaluation
+
+## Evaluation Criteria
+The assessment of regression model performance in R will be underpinned by a multi-metric approach. The Mean Squared Error (MSE), a fundamental metric quantifying the average squared difference between predicted and actual values, will serve as a pivotal benchmark (“R: Extract Mean Squared Error (MSE) from Fitted Regression Model”). Lower MSE values are indicative of heightened model precision. Additionally, the R-squared (R²) statistic will offer insights into the proportion of variance in the dependent variable explained by the model, with a higher R² denoting a superior fit. Supplementary metrics, including Mean Absolute Error (MAE) and diagnostic plots like residual plots, will be incorporated to holistically evaluate the model's predictive accuracy and its generalizability within the R programming context.
+
+## Iterative Improvement
+In pursuit of refinement, two distinctive strategies will be explored. Firstly, a shift towards a time-series regression framework will be undertaken, facilitating a comparative analysis across different temporal epochs. Simultaneously, an exhaustive search for new variables will be conducted, aiming to unearth latent relationships that might enhance the model's predictive efficacy.
+
 
 ## References:
-### Field, Marilyn J., Alan M. Jette, and Institute of Medicine (US) Committee on Disability in America. "Transportation patterns and problems of people with disabilities." In The future of disability in America. National Academies Press (US), 2007.“R: Extract Mean Squared Error (MSE) from Fitted Regression Model.” n.d. Searc
+### Field, Marilyn J., Alan M. Jette, and Institute of Medicine (US) Committee on Disability in America. "Transportation patterns and problems of people with disabilities." In The future of disability in America. National Academies Press (US), 2007.“R: Extract Mean Squared Error (MSE) from Fitted Regression Model.” n.d.
 
 ## Whimsical map:
 [https://whimsical.com/week-4-prediction-problem-7Sg7aUc44s1YKXZ4MhBDC3]
