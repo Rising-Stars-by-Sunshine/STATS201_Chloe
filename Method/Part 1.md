@@ -29,7 +29,7 @@ The envisaged analytical approach involves the deployment of a Poisson Regressio
 
 ## 1.2 The Machine Learning Workflow
 
-## # Model Development
+## Model Development
 
 ## Data Processing
 I will initiate the data acquisition process by extracting information from the census API through the tidycensus R package. To ensure statistical robustness, a preliminary step involves conducting random sampling, thereby enhancing the dataset's representativeness. Subsequently, the integration of graphical and tabular representation methods, such as correlation plots, will be employed to effectively elucidate the interplay between variables.
