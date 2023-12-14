@@ -84,8 +84,8 @@ The provided R code outlines a data query process using the `censusapi` package 
 
 ## More about the Author
 ### Bio:
-hey all! I'm Chloe, junior undergraduate from Duke University and Duke Kunshan University where I study Computation and #Design/Urban Design. I spent a year at Duke in NC and a semester in Barcelona where I studied Architecture. 
-I'm drawn to the relationship between urban planning/architecture and the natural environment and how it impacts the #people around it. All things aesthetics, urbanism, and accessibility.
+hey all! I'm Chloe, junior undergraduate from Duke University and Duke Kunshan University where I study Computation and Design/Urban Design. I spent a year at Duke in NC and a semester in Barcelona where I studied Architecture. 
+I'm drawn to the relationship between urban planning/architecture and the natural environment and how it impacts the people around it. All things aesthetics, urbanism, and accessibility.
 ![Chloe Alimurong headshot](https://github.com/Rising-Stars-by-Sunshine/STATS201_Chloe/assets/148734001/76c2be1e-7ad1-40d3-b2ae-a595304b84be)
 ### Resume:
 + Casa Río Research Assistant at Duke Kunshan Humanities Research Center, The Citizenship Lab from OCT 2022 - PRESENT
