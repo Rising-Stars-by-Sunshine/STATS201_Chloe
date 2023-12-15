@@ -107,6 +107,8 @@ I'm drawn to the relationship between urban planning/architecture and the natura
 ### Code Source
 [Chloe's code in R, HTML, qmd, and csv format.](https://drive.google.com/drive/folders/19-eoE-7oGaULIVlB6GDb_fqpqul0Nqup?usp=sharing)
 ### Articles
+[Gerontology Community Study, June 1974 (M905V1)](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PJWWOC)
+### Literature
 Wong, R. C. P., W. Y. Szeto, Linchuan Yang, Y. C. Li, and S. C. Wong. 2018. "Public Transport Policy Measures for Improving Elderly Mobility." Transport Policy 63: 73-79.
 ```
 @article{wong2018public,
@@ -129,5 +131,3 @@ Tang, Ziyi, Yu Ye, Zhidian Jiang, Chaowei Fu, Rong Huang, and Dong Yao. 2020. "A
   pages = {126871}
 }
 ```
-### Literature
-
