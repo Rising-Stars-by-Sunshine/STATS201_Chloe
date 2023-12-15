@@ -81,6 +81,10 @@ The provided R code outlines a data query process using the `censusapi` package 
 ## Results
 
 ## Spotlight
+After taking STATS201: Machine Learning for Social Science with Professor Luyao Zhang, I believe I could understand how machine learning research, especially papers, have evolved over time. Throughout history, the necessary tools for improving machine learning have increased over time. This class taught me the various methods and processes that are the foundation behind the significant papers won by Turing awards or featured by Microsoft. That’s where I think the magic of interdisciplinary research can be seen, it's where the unthinkable happens. Where research about anything regarding society and people can technology, machine learning, artificial intelligence and more can be applied to. Something you wouldn’t think would be helpful to understanding a concept turns out to be the thing that advances research in that field. 
+This course has also taught me to come up with my own ideas for each step of the research paper process. From ideation to writing the proposal, my self-reliance has sharpened and I gained a lot of freedom. It also helped me with connecting with other researchers like my peers, giving and taking useful feedback with presentations and group work. I learned the importance of being able to learn from myself and one another.
+contribution do you want to make to your self-fulfillment and to advancing human civilization? 
+I am inspired to be the founding father of self-regenerating cities. The concept of metabolism in the urban sphere has been around for a long time. I want to take this step further and apply machine learning and artificial intelligence to create technology to have cities be able to rebuild themselves and adapt to new environments as climate change continues to change terrains across the world. My feature sentence being: I created the cities of tomorrow. 
 
 ## More about the Author
 ### Bio:
