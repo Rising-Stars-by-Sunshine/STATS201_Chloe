@@ -106,7 +106,7 @@ I'm drawn to the relationship between urban planning/architecture and the natura
 [United States Transportation Bureau](https://data.bts.gov/Research-and-Statistics/County-Transportation-Profiles/qdmf-cxm3) , the [United States Census Bureau](https://data.census.gov/table?q=disability&t=Transportation&tid=ACSSPP1Y2021.S020), and the [UCLA Gerontology Study](https://doi.org/10.7910/DVN/PJWWOC)
 ### Code Source
 [Chloe's code in R, HTML, qmd, and csv format.](https://drive.google.com/drive/folders/19-eoE-7oGaULIVlB6GDb_fqpqul0Nqup?usp=sharing)
-### Articles
+### Article (this is the only source of mine with accessible code)
 [Gerontology Community Study, June 1974 (M905V1)](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PJWWOC)
 ### Literature
 Wong, R. C. P., W. Y. Szeto, Linchuan Yang, Y. C. Li, and S. C. Wong. 2018. "Public Transport Policy Measures for Improving Elderly Mobility." Transport Policy 63: 73-79.
