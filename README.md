@@ -97,6 +97,23 @@ The primary source of this dataset is the BTS Data Inventory, with the specific 
 | Total Docks                                       | Maritime data sourced from the Master Docks file from the U.S. Army Corps of Engineers (USACE) and the U.S. Maritime Administration’s Waterborne Commerce Data 2009-2018. Includes docks categorized for commercial and recreational use. | Number       |
 | Route Miles of Freight Railroad                    | Railroad data from the North American Rail Lines NTAD dataset as of April 1, 2020. Includes route miles of freight railroad, filtered to relevant fields for 'Main sub network' and 'Major Industrial Lead'. | Number       |
 
+# Geron Count Model Data (UCLA, 1974) Variable Data Dictionary
+
+| Variable Code  | Description                                   | Data Type |
+|----------------|-----------------------------------------------|-----------|
+| V155           | Frequency one sees relatives                  | Number    |
+| V163           | Frequency one sees friends/neighbors          | Number    |
+| V164           | Satisfaction with social contact              | Number    |
+| V165           | Involvement with senior orgs                  | Number    |
+| V188           | Frequency taking bus                          | Number    |
+| V186           | Car in one's household                        | Number    |
+| V185           | Has driver's license                          | Number    |
+| V193           | Transport too far                             | Number    |
+| V47            | Segregated or integrated                      | Number    |
+| V54            | House too far from transport                   | Number    |
+| V56            | Too far from family/friends                   | Number    |
+| V53            | House too far from stores                      | Number    |
+
 
 ## Code
 Full table of variables can be found in code folder.
