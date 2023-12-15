@@ -103,10 +103,31 @@ I'm drawn to the relationship between urban planning/architecture and the natura
 ## References
 
 ### Data Source
-
+[United States Transportation Bureau](https://data.bts.gov/Research-and-Statistics/County-Transportation-Profiles/qdmf-cxm3) , the [United States Census Bureau](https://data.census.gov/table?q=disability&t=Transportation&tid=ACSSPP1Y2021.S020), and the [UCLA Gerontology Study](https://doi.org/10.7910/DVN/PJWWOC)
 ### Code Source
-
+[Chloe's code in R, HTML, qmd, and csv format.](https://drive.google.com/drive/folders/19-eoE-7oGaULIVlB6GDb_fqpqul0Nqup?usp=sharing)
 ### Articles
-
+Wong, R. C. P., W. Y. Szeto, Linchuan Yang, Y. C. Li, and S. C. Wong. 2018. "Public Transport Policy Measures for Improving Elderly Mobility." Transport Policy 63: 73-79.
+```
+@article{wong2018public,
+  author = {Wong, R. C. P. and Szeto, W. Y. and Yang, Linchuan and Li, Y. C. and Wong, S. C.},
+  title = {Public Transport Policy Measures for Improving Elderly Mobility},
+  journal = {Transport Policy},
+  volume = {63},
+  year = {2018},
+  pages = {73-79}
+}
+```
+Tang, Ziyi, Yu Ye, Zhidian Jiang, Chaowei Fu, Rong Huang, and Dong Yao. 2020. "A Data-Informed Analytical Approach to Human-Scale Greenway Planning: Integrating Multi-Sourced Urban Data with Machine Learning Algorithms." Urban Forestry & Urban Greening 56: 126871.
+```
+@article{tang2020datainformed,
+  author = {Tang, Ziyi and Ye, Yu and Jiang, Zhidian and Fu, Chaowei and Huang, Rong and Yao, Dong},
+  title = {A Data-Informed Analytical Approach to Human-Scale Greenway Planning: Integrating Multi-Sourced Urban Data with Machine Learning Algorithms},
+  journal = {Urban Forestry \& Urban Greening},
+  volume = {56},
+  year = {2020},
+  pages = {126871}
+}
+```
 ### Literature
 
