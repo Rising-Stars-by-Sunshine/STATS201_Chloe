@@ -41,6 +41,47 @@ print(confusion_matrix)
 library(pROC)
 roc_curve <- roc(data$Disability_Status, predicted_values)
 plot(roc_curve, main = "ROC Curve", col = "blue", lwd = 2)
+
 ```
+I typically go through each variable by hand and determine which data points would best suit the data based off the parameters of my research question. Example from my code:
+
+```
+#census <- read.csv("US_census_selectpop-2021.csv")
+
+countyport <- read.csv("County_Transportation_Profiles.csv")
+countyport$state <- countyport$State.Name
+countyport$airport <- countyport$Primary.and.Commercial.Airports
+countyport$bridges <- countyport$Number.of.Bridges
+countyport$poorbridge <- countyport$X..of.Poor.Condition.Bridges
+countyport$business <- countyport$Number.of.business.establishments
+countyport$transitpct <- countyport$Percent.of.resident.workers.who.commute.by.transit
+countyport$wfh <- countyport$Number.of.resident.workers.who.work.at.home
+countyport$resworker <- countyport$Number.of.resident.workers
+countyport$docks <- countyport$Total.Docks
+countyport$rrcount <- countyport$Route.miles.of.freight.railroad
+countyport$rrtcount <- countyport$Route.miles.of.passenger.railroad.and.rail.transit
+
+#V155 - freq one sees relatives
+#V163 - freq one sees friends/neighbors
+#V164 - satisfaction with social contact
+#V165 - involvement w senior orgs
+#V188 - freq taking bus
+#V186 - car in ones HH
+#V185 -  has drivers license
+#V193 - transport too far
+#V47 - segregated or integrated
+#V54 - house too far from transport
+#V56 - too far from family/friends
+#V53 - house too far from stores
+geronpoiss <- glm(V188 ~ V54 + V47 + V56 + V53 + V155 + V163 + V164 + V165 + V186 + V185 + V193, 
+                     data = geron, 
+                     family = poisson)
+summary(geronpoiss)
+
+geronpoisstable <- stargazer(geronpoiss, title = "Poisson Regression Model of Transportation (V54) and opinions ", type = "text")
+print(geronpoisstable)
+```
+
 ## Whimsical flowchart
-[https://whimsical.com/problem-set-2-part-3-data-query-process-3skqvmMpRsPxYMxDkm7Smo]
+<img width="1033" alt="Screenshot 2023-12-15 at 10 26 42 PM" src="https://github.com/Rising-Stars-by-Sunshine/STATS201_Chloe/assets/148734001/76e5689b-e7ea-427a-a675-d56d497a9211">
+[Data Query Process](https://whimsical.com/problem-set-2-part-3-data-query-process-3skqvmMpRsPxYMxDkm7Smo)
